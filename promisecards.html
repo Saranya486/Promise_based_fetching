@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: grey;
+    }
+    #maincontent{
+        display: flex;
+        gap:30px;
+        align-items: center;
+        justify-content: space-around;
+        justify-items: center;
+        flex-wrap: wrap; 
+    }
+
+.card{
+border:1px solid black;
+height:440px ;
+width:300px;
+display: flex;
+background-color: aliceblue;
+flex-direction: column;
+border-radius: 8px;
+justify-content: space-between;
+align-content: center;
+padding-left: 10px;
+}
+img{
+    height: 160px;
+    width:290px ;
+}
+
+h1{
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1,1.1);
+}
+</style>
+<body>
+    
+    <h1>PRODUCT LIST AND DETAILS</h1>
+  <div id="maincontent" >
+
+  </div>
+
+    <script src="promisecards.js"></script>
+</body>
+</html>
